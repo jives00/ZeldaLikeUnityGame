@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour {
 
     public PlayerState      currentState;
     public float            speed;
+    public FloatValue       currentHealth;
+    public SignalSender     playerHealthSignal;
 
     private Rigidbody2D     myRigidBody;
     private Vector3         change;
@@ -77,8 +79,14 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     // *Public* method for when player is hit and knocked-back by an enemy
-    public void Knock(float knockTime) {
-        StartCoroutine(KnockCo(knockTime));
+    public void Knock(float knockTime, float damage) {
+        currentHealth.runTimeValue -= damage;
+        playerHealthSignal.Raise();
+
+        if (currentHealth.runTimeValue > 0) {
+            StartCoroutine(KnockCo(knockTime));}
+        else {
+            this.gameObject.SetActive(false);}
     }
 
     // *Private* method for when player is hit and knocked-back by an enemy
