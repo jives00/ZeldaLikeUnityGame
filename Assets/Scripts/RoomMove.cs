@@ -6,15 +6,15 @@ using UnityEngine.UI;
 public class RoomMove : MonoBehaviour {
 
     // Variables to move player between rooms
-    public Vector2 cameraChange;
-    public Vector3 playerChange;
-    private CameraMovement cam;
+    public Vector2          cameraChange;
+    public Vector3          playerChange;
+    private CameraMovement  cam;
 
     // Variables to display place name
-    public bool needText;
-    public string placeName;
-    public GameObject text;
-    public Text placeText;
+    public bool             needText;
+    public string           placeName;
+    public GameObject       text;
+    public Text             placeText;
 
     // Start is called before the first frame update
     void Start() {
@@ -26,7 +26,7 @@ public class RoomMove : MonoBehaviour {
 
     // Moves player/camera and calls the room name if needed
     private void OnTriggerEnter2D(Collider2D other) {
-        if (other.CompareTag("Player")) {
+        if (other.CompareTag("Player") && !other.isTrigger) {
             cam.minPosition += cameraChange;
             cam.maxPosition += cameraChange;
             other.transform.position += playerChange;
