@@ -10,7 +10,9 @@ public class CameraMovement : MonoBehaviour {
     public Vector2      minPosition;
 
     // Start is called before the first frame update
-    void Start() {}
+    void Start() {
+        transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
+    }
 
     // LateUpdate is called last in the physic system (e.g. the player moves first, then the camera)
     // gets the position of where the camera should be (aligned with player)

@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour {
     public float            speed;
     public FloatValue       currentHealth;
     public SignalSender     playerHealthSignal;
+    public VectorValue      startingPosition;
 
     private Rigidbody2D     myRigidBody;
     private Vector3         change;
@@ -30,6 +31,7 @@ public class PlayerMovement : MonoBehaviour {
         myRigidBody     = GetComponent<Rigidbody2D>();
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
+        transform.position = startingPosition.initialValue;
     }
 
     // Update is called once per frame

@@ -45,8 +45,10 @@
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Pot.cs" />
      <Compile Include="Assets\Scripts\RoomMove.cs" />
+     <Compile Include="Assets\Scripts\SceneTransition.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\FloatValue.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\SignalSender.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\VectorValue.cs" />
      <Compile Include="Assets\Scripts\Sign.cs" />
      <Compile Include="Assets\Scripts\SignalListener.cs" />
     <Reference Include="UnityEngine">
