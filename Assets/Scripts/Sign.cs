@@ -5,13 +5,12 @@ using UnityEngine.UI;
 
 public class Sign : MonoBehaviour {
 
-    public GameObject dialogBox;
-    public Text dialogText;
-    public string dialog;
-    public bool playerInRange;
-
-    // Start is called before the first frame update
-    void Start() {}
+    public GameObject       dialogBox;
+    public Text             dialogText;
+    public string           dialog;
+    public bool             playerInRange;
+    public SignalSender     contextOn;
+    public SignalSender     contextOff;
 
     // Update is called once per frame
     // When player approaches sign and hits space, display it (set to true)
@@ -22,19 +21,20 @@ public class Sign : MonoBehaviour {
                 dialogBox.SetActive(false);} 
             else {
                 dialogBox.SetActive(true);
-                dialogText.text = dialog;}
-        }
+                dialogText.text = dialog;}}
     }
 
     // These two functions are built in Unity functions to determine 
     // when a collision happens (Enter) and ends (Exit)
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("Player")) {
+            contextOn.Raise();
             playerInRange = true;}
     }
 
     private void OnTriggerExit2D(Collider2D other) {
         if (other.CompareTag("Player")) {
+            contextOff.Raise();
             playerInRange = false;
             dialogBox.SetActive(false);}
     }

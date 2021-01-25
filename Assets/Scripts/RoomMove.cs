@@ -34,11 +34,11 @@ public class RoomMove : MonoBehaviour {
         }
     }
 
-    // Displays room name for 4 seconds
+    // Displays room name for 2 seconds
     private IEnumerator placeNameCo() {
         text.SetActive(true);
         placeText.text = placeName;
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(2f);
         text.SetActive(false);
     }
 }

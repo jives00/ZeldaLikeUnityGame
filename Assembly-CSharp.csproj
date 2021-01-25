@@ -38,11 +38,12 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\HeartManager.cs" />
      <Compile Include="Assets\Scripts\Knockback.cs" />
      <Compile Include="Assets\Scripts\Log.cs" />
-     <Compile Include="Assets\Scripts\PlayerHit.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\ContextClue.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\HeartManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\PlayerHit.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Pot.cs" />
      <Compile Include="Assets\Scripts\RoomMove.cs" />
      <Compile Include="Assets\Scripts\SceneTransition.cs" />
