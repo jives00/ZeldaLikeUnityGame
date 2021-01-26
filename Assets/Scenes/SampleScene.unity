@@ -13147,39 +13147,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 018e21d118b94cc44864ac94630796b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  signal: {fileID: 11400000, guid: 527aaabadb7c37d47b277bc147a91125, type: 2}
-  signalEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 860627786}
-        m_MethodName: Disable
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &860627785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 860627777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 018e21d118b94cc44864ac94630796b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   signal: {fileID: 11400000, guid: e2ce586ef9f3216408165ad1b1f9098a, type: 2}
   signalEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 860627786}
-        m_MethodName: Enable
+        m_MethodName: ChangeContext
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13202,6 +13175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contextClue: {fileID: 800481373}
+  contextActive: 0
 --- !u!1001 &860861383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54425,6 +54399,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6209873779912051988, guid: 7ee8b2e775c35e141a558844f65e2b56,
+        type: 3}
+      propertyPath: thrust
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6209873779912051996, guid: 7ee8b2e775c35e141a558844f65e2b56,
         type: 3}
       propertyPath: m_Name
@@ -54599,9 +54578,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 093c54ee94ce3a641a8e719e8a70f72c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInRange: 0
+  context: {fileID: 11400000, guid: e2ce586ef9f3216408165ad1b1f9098a, type: 2}
   dialogBox: {fileID: 1141760718}
   dialogText: {fileID: 471252996}
   dialog: Pond Ahead
-  playerInRange: 0
-  contextOn: {fileID: 11400000, guid: e2ce586ef9f3216408165ad1b1f9098a, type: 2}
-  contextOff: {fileID: 11400000, guid: 527aaabadb7c37d47b277bc147a91125, type: 2}
