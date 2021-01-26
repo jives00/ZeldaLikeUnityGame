@@ -45,11 +45,14 @@
      <Compile Include="Assets\Scripts\Objects\RoomMove.cs" />
      <Compile Include="Assets\Scripts\Objects\SceneTransition.cs" />
      <Compile Include="Assets\Scripts\Objects\Sign.cs" />
+     <Compile Include="Assets\Scripts\Objects\TreasureChest.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\ContextClue.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\HeartManager.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\PlayerHit.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Scriptable Objects\FloatValue.cs" />
+     <Compile Include="Assets\Scripts\Scriptable Objects\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Scriptable Objects\Item.cs" />
      <Compile Include="Assets\Scripts\Scriptable Objects\SignalSender.cs" />
      <Compile Include="Assets\Scripts\Scriptable Objects\VectorValue.cs" />
      <Compile Include="Assets\Scripts\SignalListener.cs" />
