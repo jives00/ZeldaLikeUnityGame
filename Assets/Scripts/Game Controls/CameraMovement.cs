@@ -8,10 +8,17 @@ public class CameraMovement : MonoBehaviour {
     public float        smoothing;
     public Vector2      maxPosition;
     public Vector2      minPosition;
+    public Animator     anim;
+
+    public VectorValue  defaultMax;
+    public VectorValue  deaultMin;
+
+
 
     // Start is called before the first frame update
     void Start() {
         transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
+        anim = GetComponent<Animator>();
     }
 
     // LateUpdate is called last in the physic system (e.g. the player moves first, then the camera)
@@ -25,5 +32,15 @@ public class CameraMovement : MonoBehaviour {
             targetPosition.y = Mathf.Clamp(targetPosition.y, minPosition.y, maxPosition.y);
             transform.position = Vector3.Lerp(transform.position, targetPosition, smoothing);
         }
+    }
+
+    public void BeginKick() {
+        anim.SetBool("kickActive", true);
+        StartCoroutine(KickCo());
+    }
+
+    public IEnumerator KickCo() {
+        yield return null;
+        anim.SetBool("kickActive", false);
     }
 }
