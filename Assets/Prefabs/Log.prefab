@@ -172,6 +172,9 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 1.5
+  deathEffect: {fileID: 1795286643883130617, guid: 55a70a5aae0501f4cbd307dc5d3269f6,
+    type: 3}
+  myRigidBody: {fileID: 0}
   target: {fileID: 0}
   homePosition: {fileID: 0}
   chaseRadius: 4

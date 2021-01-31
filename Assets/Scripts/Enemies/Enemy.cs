@@ -17,6 +17,7 @@ public class Enemy : MonoBehaviour {
     public string       enemyName;
     public int          baseAttack;
     public float        moveSpeed;
+    public GameObject   deathEffect;
 
     // similar to start but isn't overriden by subclasses (e.g. log.cs)
     private void Awake() {
@@ -42,7 +43,15 @@ public class Enemy : MonoBehaviour {
     private void TakeDamage(float damage) {
         health -= damage;
         if (health <= 0) {
-            this.gameObject.SetActive(false); }
+            DeathEffect();
+            this.gameObject.SetActive(false);}
+    }
+
+    private void DeathEffect() {
+        if (deathEffect != null) {
+            GameObject effect = Instantiate(deathEffect, transform.position, Quaternion.identity);
+            Destroy(effect, 1f);
+        }
     }
 
 
