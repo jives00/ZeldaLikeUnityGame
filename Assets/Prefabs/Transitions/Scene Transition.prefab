@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1800187021080502908}
   - component: {fileID: 1761086936929206346}
-  - component: {fileID: 368628011362082158}
+  - component: {fileID: 1879071878}
+  - component: {fileID: 1879071879}
   m_Layer: 0
   m_Name: Scene Transition
   m_TagString: Untagged
@@ -45,20 +46,71 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.016780138, y: 0.08390212}
+  m_Offset: {x: 0, y: 0.3368361}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9956374, y: 0.83219576}
+  m_Size: {x: 0.90006876, y: 0.8934369}
   m_EdgeRadius: 0
---- !u!114 &368628011362082158
+--- !u!212 &1879071878
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3210114630942062976}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -4856597035943072115, guid: 3a88d9151593a5e42baece17850b2e6f,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1879071879
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -67,7 +119,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 3210114630942062976}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e4eee502748294488a76f4a71cf7a34, type: 3}
+  m_Script: {fileID: 11500000, guid: 058d9e601292e5240a8da61d017a2111, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: SampleScene
+  sceneToLoad: HouseInterior
+  playerPosition: {x: 0, y: 0}
+  playerStorage: {fileID: 11400000, guid: 59be9040cbeb80f4aa261573b744fc8d, type: 2}
+  cameraNewMax: {x: 0, y: 0}
+  cameraNewMin: {x: 0, y: 0}
+  cameraMin: {fileID: 11400000, guid: 43b162969f196804ab996a892f045219, type: 2}
+  cameraMax: {fileID: 11400000, guid: 4bcf6f9ae472c5645a8fc3efda75b096, type: 2}
+  fadeInPanel: {fileID: 7419374872871816721, guid: 0dfefd85a252963459342979f5e1d3b4,
+    type: 3}
+  fadeOutPanel: {fileID: 1923662903263760943, guid: 7f5fbfedfd8a99649b4c8dd9bcdf7c9e,
+    type: 3}
+  fadeWait: 0.5

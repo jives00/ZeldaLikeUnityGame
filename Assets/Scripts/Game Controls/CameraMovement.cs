@@ -4,19 +4,23 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour {
 
+    [Header("Position Variables")]
     public Transform    target;             // set to Player in Unity
     public float        smoothing;
     public Vector2      maxPosition;
     public Vector2      minPosition;
+    
+    [Header("Animator")]
     public Animator     anim;
 
-    public VectorValue  defaultMax;
-    public VectorValue  deaultMin;
-
-
+    [Header("Position Reset")]
+    public VectorValue  camMin;
+    public VectorValue  camMax;
 
     // Start is called before the first frame update
     void Start() {
+        maxPosition = camMax.initialValue;
+        minPosition = camMin.initialValue;
         transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
         anim = GetComponent<Animator>();
     }

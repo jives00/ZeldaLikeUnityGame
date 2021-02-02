@@ -9289,8 +9289,39 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scene Transition
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1879071879, guid: ce577b17fff353f4fbd28d94793916eb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ce577b17fff353f4fbd28d94793916eb, type: 3}
+--- !u!1 &406759951 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3210114630942062976, guid: ce577b17fff353f4fbd28d94793916eb,
+    type: 3}
+  m_PrefabInstance: {fileID: 406759950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &406759952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406759951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058d9e601292e5240a8da61d017a2111, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: SampleScene
+  playerPosition: {x: 12.5, y: -29}
+  playerStorage: {fileID: 11400000, guid: 59be9040cbeb80f4aa261573b744fc8d, type: 2}
+  cameraNewMax: {x: 17, y: -31}
+  cameraNewMin: {x: 8, y: -44}
+  cameraMin: {fileID: 11400000, guid: badfc19c10639b047855326679c35b10, type: 2}
+  cameraMax: {fileID: 11400000, guid: c90ca723737233143b95751831c34f72, type: 2}
+  fadeInPanel: {fileID: 7419374872871816721, guid: 0dfefd85a252963459342979f5e1d3b4,
+    type: 3}
+  fadeOutPanel: {fileID: 1923662903263760943, guid: 7f5fbfedfd8a99649b4c8dd9bcdf7c9e,
+    type: 3}
+  fadeWait: 0.5
 --- !u!1001 &538387195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11527,6 +11558,9 @@ MonoBehaviour:
   smoothing: 1
   maxPosition: {x: 0, y: 0}
   minPosition: {x: 0, y: 0}
+  anim: {fileID: 0}
+  camMin: {fileID: 11400000, guid: 43b162969f196804ab996a892f045219, type: 2}
+  camMax: {fileID: 11400000, guid: 4bcf6f9ae472c5645a8fc3efda75b096, type: 2}
 --- !u!1 &1402613336
 GameObject:
   m_ObjectHideFlags: 0

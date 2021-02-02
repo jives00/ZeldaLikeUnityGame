@@ -5,9 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour {
 
+    [Header("Scene Variables")]
     public string           sceneToLoad;
     public Vector2          playerPosition;
     public VectorValue      playerStorage;
+    public Vector2          cameraNewMax;
+    public Vector2          cameraNewMin;
+    public VectorValue      cameraMin;
+    public VectorValue      cameraMax;
+
+    [Header("Tranisition Variables")]
     public GameObject       fadeInPanel;
     public GameObject       fadeOutPanel;
     public float            fadeWait;
@@ -28,9 +35,15 @@ public class SceneTransition : MonoBehaviour {
         if (fadeOutPanel != null) {
             Instantiate(fadeOutPanel, Vector3.zero, Quaternion.identity);}
         yield return new WaitForSeconds(fadeWait);
+        resetCameraBounds();
         AsyncOperation aSyncOperation = SceneManager.LoadSceneAsync(sceneToLoad);
         while (!aSyncOperation.isDone) {
             yield return null;}
+    }
+
+    public void resetCameraBounds() {
+        cameraMax.initialValue = cameraNewMax;
+        cameraMin.initialValue = cameraNewMin;
     }
 
 
