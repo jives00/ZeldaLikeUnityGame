@@ -6,10 +6,14 @@ using UnityEngine;
 public class Log : Enemy {
 
     public Rigidbody2D myRigidBody;
+    
+    [Header("Target Variables")]
     public Transform    target;
     public Transform    homePosition;
     public float        chaseRadius;
     public float        attackRadius;
+    
+    [Header("Animator")]
     public Animator     anim;
 
     void Start() {
@@ -38,7 +42,7 @@ public class Log : Enemy {
             anim.SetBool("wakeUp", false);}
     }
 
-    private void SetAnimFloat(Vector2 setVector) {
+    public void SetAnimFloat(Vector2 setVector) {
         anim.SetFloat("moveX", setVector.x);
         anim.SetFloat("moveY", setVector.y);
     }
@@ -56,7 +60,7 @@ public class Log : Enemy {
                 SetAnimFloat(Vector2.down);}}
     }
 
-    private void ChangeState(EnemyState newState) {
+    public void ChangeState(EnemyState newState) {
         if (currentState != newState) {
             currentState = newState;}
     }
