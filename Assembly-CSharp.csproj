@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Objects\PowerUp.cs" />
      <Compile Include="Assets\Scripts\Objects\RoomMove.cs" />
      <Compile Include="Assets\Scripts\Objects\Sign.cs" />
+     <Compile Include="Assets\Scripts\Objects\Switch.cs" />
      <Compile Include="Assets\Scripts\Objects\TreasureChest.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\ContextClue.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\HeartManager.cs" />
