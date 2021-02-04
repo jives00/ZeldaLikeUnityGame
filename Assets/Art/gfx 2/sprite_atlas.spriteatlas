@@ -1687,6 +1687,7 @@ SpriteAtlas:
   - {fileID: 8626818278983215672, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
   - {fileID: 228074669703589773, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
   - {fileID: 4391973271103909417, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
+  - {fileID: 5849325189442884660, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
   - {fileID: -6050296909894318094, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
   - {fileID: -6429866276832845431, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
   - {fileID: -3727842135710763035, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
@@ -1720,7 +1721,6 @@ SpriteAtlas:
   - {fileID: -2612631271021064264, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
   - {fileID: 7495320969501026803, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
   - {fileID: 1460043806165005221, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
-  - {fileID: 5849325189442884660, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
   - {fileID: 4545352612990403588, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
   - {fileID: 8753186556605219898, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
   - {fileID: 4698315425400886581, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
@@ -3407,6 +3407,7 @@ SpriteAtlas:
   - objects_121
   - objects_120
   - switchUp
+  - rock projectile
   - objects_17
   - objects_48
   - objects_16
@@ -3440,7 +3441,6 @@ SpriteAtlas:
   - objects_47
   - objects_27
   - objects_37
-  - objects_24
   - objects_36
   - objects_25
   - objects_31

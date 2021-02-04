@@ -40,6 +40,8 @@
      <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
      <Compile Include="Assets\Scripts\Enemies\Log.cs" />
      <Compile Include="Assets\Scripts\Enemies\PatrolLog.cs" />
+     <Compile Include="Assets\Scripts\Enemies\RockProjectile.cs" />
+     <Compile Include="Assets\Scripts\Enemies\TurretEnemy.cs" />
      <Compile Include="Assets\Scripts\Game Controls\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\Game Controls\CoinTextManager.cs" />
      <Compile Include="Assets\Scripts\Game Controls\Knockback.cs" />
@@ -50,6 +52,7 @@
      <Compile Include="Assets\Scripts\Objects\InteractableObjects.cs" />
      <Compile Include="Assets\Scripts\Objects\Pot.cs" />
      <Compile Include="Assets\Scripts\Objects\PowerUp.cs" />
+     <Compile Include="Assets\Scripts\Objects\Projectile.cs" />
      <Compile Include="Assets\Scripts\Objects\RoomMove.cs" />
      <Compile Include="Assets\Scripts\Objects\Sign.cs" />
      <Compile Include="Assets\Scripts\Objects\Switch.cs" />
