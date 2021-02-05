@@ -29,6 +29,7 @@ public class Enemy : MonoBehaviour {
     // similar to start but isn't overriden by subclasses (e.g. log.cs)
     private void Awake() {
         health = maxHealth.initialValue;
+        homePosition = transform.position;
     }
 
     void OnEnable() {
