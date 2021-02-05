@@ -44,7 +44,10 @@
      <Compile Include="Assets\Scripts\Enemies\TurretEnemy.cs" />
      <Compile Include="Assets\Scripts\Game Controls\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\Game Controls\CoinTextManager.cs" />
+     <Compile Include="Assets\Scripts\Game Controls\DungeonRoom.cs" />
      <Compile Include="Assets\Scripts\Game Controls\Knockback.cs" />
+     <Compile Include="Assets\Scripts\Game Controls\OverworldRoom.cs" />
+     <Compile Include="Assets\Scripts\Game Controls\Room.cs" />
      <Compile Include="Assets\Scripts\Game Controls\SceneTransition.cs" />
      <Compile Include="Assets\Scripts\Objects\Coin.cs" />
      <Compile Include="Assets\Scripts\Objects\Door.cs" />

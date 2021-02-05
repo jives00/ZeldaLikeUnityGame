@@ -20,6 +20,7 @@ public class Enemy : MonoBehaviour {
     public string       enemyName;
     public int          baseAttack;
     public float        moveSpeed;
+    public Vector2      homePosition;
 
     [Header("Death Effects")]
     public GameObject   deathEffect;
@@ -28,6 +29,10 @@ public class Enemy : MonoBehaviour {
     // similar to start but isn't overriden by subclasses (e.g. log.cs)
     private void Awake() {
         health = maxHealth.initialValue;
+    }
+
+    void OnEnable() {
+        transform.position = homePosition;
     }
 
     // public version that can be called by other classes when knockback occurs

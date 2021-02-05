@@ -9,7 +9,6 @@ public class Log : Enemy {
     
     [Header("Target Variables")]
     public Transform    target;
-    public Transform    homePosition;
     public float        chaseRadius;
     public float        attackRadius;
     
