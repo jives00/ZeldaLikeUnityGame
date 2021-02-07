@@ -114,7 +114,7 @@ public class PlayerMovement : MonoBehaviour {
 
     // *Private* method for when player is hit and knocked-back by an enemy
     private IEnumerator KnockCo(float knockTime) {
-        playerHit.Raise();
+        // playerHit.Raise();
         if (myRigidBody != null) {
             yield return new WaitForSeconds(knockTime);
             myRigidBody.velocity = Vector2.zero;

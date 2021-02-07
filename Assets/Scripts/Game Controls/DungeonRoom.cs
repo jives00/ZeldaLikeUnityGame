@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DungeonRoom : MonoBehaviour {
+public class DungeonRoom : Room {
 
     void Start() {
         

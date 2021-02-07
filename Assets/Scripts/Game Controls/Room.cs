@@ -7,7 +7,7 @@ public class Room : MonoBehaviour {
     public Enemy[]      enemies;
     public Pot[]        pots;
 
-    public void OnTriggerEnter2D(Collider2D other) {
+    public virtual void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("Player") && !other.isTrigger) {
             for (int i = 0; i < enemies.Length; i++) {
                 ChangeActivation(enemies[i], true);}
@@ -15,7 +15,7 @@ public class Room : MonoBehaviour {
                 ChangeActivation(pots[i], true);}}
     }
 
-    public void OnTriggerExit2D(Collider2D other) {
+    public virtual void OnTriggerExit2D(Collider2D other) {
         if (other.CompareTag("Player") && !other.isTrigger) {
             for (int i = 0; i < enemies.Length; i++) {
                 ChangeActivation(enemies[i], false);}
@@ -23,7 +23,7 @@ public class Room : MonoBehaviour {
                 ChangeActivation(pots[i], false);}}
     }
 
-    void ChangeActivation(Component component, bool activation) {
+    public void ChangeActivation(Component component, bool activation) {
         component.gameObject.SetActive(activation);
     }
 

@@ -26,6 +26,9 @@ public class Enemy : MonoBehaviour {
     public GameObject   deathEffect;
     private float       deathEffectDelay = 1f;
 
+    [Header("Death Signals")]
+    public SignalSender roomSignal;
+
     // similar to start but isn't overriden by subclasses (e.g. log.cs)
     private void Awake() {
         health = maxHealth.initialValue;
@@ -56,6 +59,7 @@ public class Enemy : MonoBehaviour {
         health -= damage;
         if (health <= 0) {
             DeathEffect();
+            roomSignal.Raise();
             this.gameObject.SetActive(false);}
     }
 

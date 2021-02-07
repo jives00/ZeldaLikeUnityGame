@@ -36,6 +36,8 @@ public class Door : InteractableObjects {
     }
 
     public void Close() {
-
+        doorSprite.enabled = true;
+        open = false;
+        physicsCollider.enabled = enabled;
     }
 }
