@@ -6,13 +6,15 @@ public class Room : MonoBehaviour {
 
     public Enemy[]      enemies;
     public Pot[]        pots;
+    public GameObject   virtualCamera;
 
     public virtual void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("Player") && !other.isTrigger) {
             for (int i = 0; i < enemies.Length; i++) {
                 ChangeActivation(enemies[i], true);}
             for (int i = 0; i < pots.Length; i++) {
-                ChangeActivation(pots[i], true);}}
+                ChangeActivation(pots[i], true);}
+            virtualCamera.SetActive(true);}
     }
 
     public virtual void OnTriggerExit2D(Collider2D other) {
@@ -20,7 +22,8 @@ public class Room : MonoBehaviour {
             for (int i = 0; i < enemies.Length; i++) {
                 ChangeActivation(enemies[i], false);}
             for (int i = 0; i < pots.Length; i++) {
-                ChangeActivation(pots[i], false);}}
+                ChangeActivation(pots[i], false);}
+            virtualCamera.SetActive(false);}
     }
 
     public void ChangeActivation(Component component, bool activation) {
