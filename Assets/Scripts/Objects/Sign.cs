@@ -12,7 +12,7 @@ public class Sign : InteractableObjects {
     // When player approaches sign and hits space, display it (set to true)
     // If already displaying dialog and hits space, turn dialog box off
     void Update() {
-        if (Input.GetKeyDown(KeyCode.Space) && playerInRange) {
+        if (Input.GetButtonDown("attack") && playerInRange) {
             if (dialogBox.activeInHierarchy) {
                 dialogBox.SetActive(false);} 
             else {

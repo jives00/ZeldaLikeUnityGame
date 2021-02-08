@@ -38,6 +38,8 @@ public class Enemy : MonoBehaviour {
 
     void OnEnable() {
         transform.position = homePosition;
+        health = maxHealth.initialValue;
+        currentState = EnemyState.idle;
     }
 
     // public version that can be called by other classes when knockback occurs

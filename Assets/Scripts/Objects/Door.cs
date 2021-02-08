@@ -21,7 +21,7 @@ public class Door : InteractableObjects {
     // if near door, has a key and spacebar pressed then call the Open() method
     private void Update() {
         playerInventory.numberOfKeys++;
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.GetButtonDown("attack")) {
             if (playerInRange && thisDoorType == DoorType.key) {
                 if (playerInventory.numberOfKeys > 0) {
                     playerInventory.numberOfKeys--;

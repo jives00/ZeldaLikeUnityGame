@@ -28,7 +28,7 @@ public class TreasureChest : InteractableObjects {
     }
 
     void Update() {
-        if (Input.GetKeyDown(KeyCode.Space) && playerInRange) {
+        if (Input.GetButtonDown("attack") && playerInRange) {
             if (!isOpen) {
                 OpenChest();}
             else {
