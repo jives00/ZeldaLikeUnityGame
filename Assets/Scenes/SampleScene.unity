@@ -13137,7 +13137,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.002758, y: -12.5, z: -10}
+  m_LocalPosition: {x: 12.5, y: -12.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -55486,7 +55486,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b692ddcc7f6ff204d84a29968c1f80ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemies: []
+  enemies:
+  - {fileID: 4377345025154433782}
   pots: []
   virtualCamera: {fileID: 593162795}
 --- !u!4 &1638426422 stripped
@@ -57970,6 +57971,7 @@ MonoBehaviour:
   homePosition: {x: 20, y: -8}
   deathEffect: {fileID: 1795286643883130617, guid: 55a70a5aae0501f4cbd307dc5d3269f6,
     type: 3}
+  thisLoot: {fileID: 11400000, guid: 3bb4204cbf11e7f4a89d8f171a70e420, type: 2}
   roomSignal: {fileID: 0}
   myRigidBody: {fileID: 0}
   target: {fileID: 0}
@@ -58571,6 +58573,7 @@ MonoBehaviour:
   homePosition: {x: 6.190001, y: -43.08351}
   deathEffect: {fileID: 1795286643883130617, guid: 55a70a5aae0501f4cbd307dc5d3269f6,
     type: 3}
+  thisLoot: {fileID: 0}
   roomSignal: {fileID: 0}
   myRigidBody: {fileID: 0}
   target: {fileID: 0}
@@ -59312,6 +59315,7 @@ MonoBehaviour:
   homePosition: {x: 15, y: -17}
   deathEffect: {fileID: 1795286643883130617, guid: 55a70a5aae0501f4cbd307dc5d3269f6,
     type: 3}
+  thisLoot: {fileID: 11400000, guid: 3bb4204cbf11e7f4a89d8f171a70e420, type: 2}
   roomSignal: {fileID: 0}
   myRigidBody: {fileID: 0}
   target: {fileID: 0}
@@ -59339,6 +59343,7 @@ MonoBehaviour:
   homePosition: {x: 17, y: -15}
   deathEffect: {fileID: 1795286643883130617, guid: 55a70a5aae0501f4cbd307dc5d3269f6,
     type: 3}
+  thisLoot: {fileID: 11400000, guid: 3bb4204cbf11e7f4a89d8f171a70e420, type: 2}
   roomSignal: {fileID: 0}
   myRigidBody: {fileID: 0}
   target: {fileID: 0}
@@ -59527,6 +59532,7 @@ MonoBehaviour:
   homePosition: {x: 45, y: -7}
   deathEffect: {fileID: 1795286643883130617, guid: 55a70a5aae0501f4cbd307dc5d3269f6,
     type: 3}
+  thisLoot: {fileID: 0}
   roomSignal: {fileID: 0}
   myRigidBody: {fileID: 0}
   target: {fileID: 1169202727}
