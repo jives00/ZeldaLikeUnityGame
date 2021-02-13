@@ -1,0 +1,1592 @@
+fileFormatVersion: 2
+guid: d73c01e99d949094098caee074184b7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4079024381068309220
+    second: orge attack sprites_0
+  - first:
+      213: -2413343258722215764
+    second: orge attack sprites_1
+  - first:
+      213: -7689516855428512398
+    second: orge attack sprites_2
+  - first:
+      213: -1469879329949605291
+    second: orge attack sprites_3
+  - first:
+      213: -4595737047348238561
+    second: orge attack sprites_4
+  - first:
+      213: 7210269430212126475
+    second: orge attack sprites_5
+  - first:
+      213: 3417586621162738884
+    second: orge attack sprites_6
+  - first:
+      213: 1892170638232913272
+    second: orge attack sprites_7
+  - first:
+      213: -8799995575176783795
+    second: orge attack sprites_8
+  - first:
+      213: 9114078935630010517
+    second: orge attack sprites_9
+  - first:
+      213: 2670572250263382453
+    second: orge attack sprites_10
+  - first:
+      213: 5700767193190630657
+    second: orge attack sprites_11
+  - first:
+      213: -336000531214846984
+    second: orge attack sprites_12
+  - first:
+      213: 1777361459721282548
+    second: orge attack sprites_13
+  - first:
+      213: 1660108805471425300
+    second: orge attack sprites_14
+  - first:
+      213: -137277378185822715
+    second: orge attack sprites_15
+  - first:
+      213: -6287319729683652133
+    second: orge attack sprites_16
+  - first:
+      213: -8089579703668238491
+    second: orge attack sprites_17
+  - first:
+      213: -8819191928926034037
+    second: orge attack sprites_18
+  - first:
+      213: 3551684274558252363
+    second: orge attack sprites_19
+  - first:
+      213: 3596225233823496793
+    second: orge attack sprites_20
+  - first:
+      213: 4286367308833463269
+    second: orge attack sprites_21
+  - first:
+      213: -1477281422571465293
+    second: orge attack sprites_22
+  - first:
+      213: 8699485909013914620
+    second: orge attack sprites_23
+  - first:
+      213: -5769027804462709206
+    second: orge attack sprites_24
+  - first:
+      213: -6441852112928572375
+    second: orge attack sprites_25
+  - first:
+      213: 4147021617565753776
+    second: orge attack sprites_26
+  - first:
+      213: -9115791375986795656
+    second: orge attack sprites_27
+  - first:
+      213: -7683292668960777354
+    second: orge attack sprites_28
+  - first:
+      213: 1921508943902698794
+    second: orge attack sprites_29
+  - first:
+      213: -4338159698344043196
+    second: orge attack sprites_30
+  - first:
+      213: -7136152453584438839
+    second: orge attack sprites_31
+  - first:
+      213: -8549230858445752246
+    second: orge attack sprites_32
+  - first:
+      213: -2382986222314992938
+    second: orge attack sprites_33
+  - first:
+      213: -8613188512994166984
+    second: orge attack sprites_34
+  - first:
+      213: -4712715490720481241
+    second: orge attack sprites_35
+  - first:
+      213: 497209818489109757
+    second: orge attack sprites_36
+  - first:
+      213: -2168087047004858478
+    second: orge attack sprites_37
+  - first:
+      213: 6415528889086535975
+    second: orge attack sprites_38
+  - first:
+      213: 6375967035774598277
+    second: orge attack sprites_39
+  - first:
+      213: -6855288244026450245
+    second: orge attack sprites_40
+  - first:
+      213: 770802107949940075
+    second: orge attack sprites_41
+  - first:
+      213: 8152260433265524497
+    second: orge attack sprites_42
+  - first:
+      213: 530772108783122549
+    second: orge attack sprites_43
+  - first:
+      213: -9142126214749102557
+    second: orge attack sprites_44
+  - first:
+      213: 858907091089884505
+    second: orge attack sprites_45
+  - first:
+      213: 8943901902147912096
+    second: orge attack sprites_46
+  - first:
+      213: 7760019460322895533
+    second: orge attack sprites_47
+  - first:
+      213: -6190396144717645861
+    second: orge attack sprites_48
+  - first:
+      213: -7424870757428272326
+    second: orge attack sprites_49
+  - first:
+      213: 242795571217616718
+    second: orge attack sprites_50
+  - first:
+      213: -1371892853075648152
+    second: orge attack sprites_51
+  - first:
+      213: -7826246542830118946
+    second: orge attack sprites_52
+  - first:
+      213: 5750653080462585591
+    second: orge attack sprites_53
+  - first:
+      213: -5248497362440307467
+    second: orge attack sprites_54
+  - first:
+      213: -7624137875699424223
+    second: orge attack sprites_55
+  - first:
+      213: -1369608314162675333
+    second: orge attack sprites_56
+  - first:
+      213: 1994321419741998951
+    second: orge attack sprites_57
+  - first:
+      213: 7752251173580643453
+    second: orge attack sprites_58
+  - first:
+      213: 4298549895992930188
+    second: orge attack sprites_59
+  - first:
+      213: -865903214170312497
+    second: orge attack sprites_60
+  - first:
+      213: 6715391114883802734
+    second: orge attack sprites_61
+  - first:
+      213: 413981066693396183
+    second: orge attack sprites_62
+  - first:
+      213: -6434711220760778831
+    second: orge attack sprites_63
+  - first:
+      213: -6549840344581272187
+    second: orge attack sprites_64
+  - first:
+      213: 6869650100498587029
+    second: orge attack sprites_65
+  - first:
+      213: 3662138062488770151
+    second: orge attack sprites_66
+  - first:
+      213: 1956586103679316756
+    second: orge attack sprites_67
+  - first:
+      213: 4983330753085422806
+    second: orge attack sprites_68
+  - first:
+      213: -9175536752760475523
+    second: orge attack sprites_69
+  - first:
+      213: -8226888176936812327
+    second: orge attack sprites_70
+  - first:
+      213: 2612704202813563728
+    second: orge attack sprites_71
+  - first:
+      213: -4344594378558733766
+    second: orge attack sprites_72
+  - first:
+      213: 543437603535934847
+    second: orge attack sprites_73
+  - first:
+      213: -6128580621480512934
+    second: orge attack sprites_74
+  - first:
+      213: -3420989496897513981
+    second: orge attack sprites_75
+  - first:
+      213: 5325425518085021660
+    second: orge attack sprites_76
+  - first:
+      213: 1250761003193906500
+    second: orge attack sprites_77
+  - first:
+      213: 5953240150341275396
+    second: orge attack sprites_78
+  - first:
+      213: -3875720940259125688
+    second: orge attack sprites_79
+  - first:
+      213: -85127576435762804
+    second: orge attack sprites_80
+  - first:
+      213: -2140084292521570365
+    second: orge attack sprites_81
+  - first:
+      213: -3383475910749079033
+    second: orge attack sprites_82
+  - first:
+      213: 4116818794435857383
+    second: orge attack sprites_83
+  - first:
+      213: 6666476198340234503
+    second: orge attack sprites_84
+  - first:
+      213: 5469323602035632088
+    second: orge attack sprites_85
+  - first:
+      213: -143248164851887362
+    second: orge attack sprites_86
+  - first:
+      213: 2114238264446546
+    second: orge attack sprites_87
+  - first:
+      213: 1327621749557326440
+    second: orge attack sprites_88
+  - first:
+      213: -4969062767833303590
+    second: orge attack sprites_89
+  - first:
+      213: 970018597948521957
+    second: orge attack sprites_90
+  - first:
+      213: 1561230433533864072
+    second: orge attack sprites_91
+  - first:
+      213: -5717706939916631468
+    second: orge attack sprites_92
+  - first:
+      213: -6413697329610695842
+    second: orge attack sprites_93
+  - first:
+      213: -6022666872551592041
+    second: orge attack sprites_94
+  - first:
+      213: -756654960474060371
+    second: orge attack sprites_95
+  - first:
+      213: -4234380367581467866
+    second: orge attack sprites_96
+  - first:
+      213: 6236545326272737624
+    second: orge attack sprites_97
+  - first:
+      213: -1326127324166552800
+    second: orge attack sprites_98
+  - first:
+      213: 6225033948219442810
+    second: orge attack sprites_99
+  - first:
+      213: 982277167281400716
+    second: orge attack sprites_100
+  - first:
+      213: 1309700915542704430
+    second: orge attack sprites_101
+  - first:
+      213: 6446013708710443544
+    second: orge attack sprites_102
+  - first:
+      213: -1719382774491418100
+    second: orge attack sprites_103
+  - first:
+      213: -7945992515294554367
+    second: orge attack sprites_104
+  - first:
+      213: 4684130760319696345
+    second: orge attack sprites_105
+  - first:
+      213: -6270011914820594317
+    second: orge attack sprites_106
+  - first:
+      213: 248865643652585484
+    second: orge attack sprites_107
+  - first:
+      213: 214834459239515799
+    second: orge attack sprites_108
+  - first:
+      213: 2389622102339542834
+    second: orge attack sprites_109
+  - first:
+      213: -3129258317057177911
+    second: orge attack sprites_110
+  - first:
+      213: 56634061031679169
+    second: orge attack sprites_111
+  - first:
+      213: -2325912579346357979
+    second: orge attack sprites_112
+  - first:
+      213: 6276678222956314178
+    second: orge attack sprites_113
+  - first:
+      213: -6049229075799172979
+    second: orge attack sprites_114
+  - first:
+      213: -1749742135723072885
+    second: orge attack sprites_115
+  - first:
+      213: 2163238552962225280
+    second: orge attack sprites_116
+  - first:
+      213: 2353273633971446938
+    second: orge attack sprites_117
+  - first:
+      213: -8070509974306006751
+    second: orge attack sprites_118
+  - first:
+      213: -7008226634605627503
+    second: orge attack sprites_119
+  - first:
+      213: -1499267334289343583
+    second: orge attack sprites_120
+  - first:
+      213: 4504027528308640530
+    second: orge attack sprites_121
+  - first:
+      213: -5182103254781511397
+    second: orge attack sprites_122
+  - first:
+      213: 1051115052161771205
+    second: orge attack sprites_123
+  - first:
+      213: -3599598379716029761
+    second: orge attack sprites_124
+  - first:
+      213: 7779372947459193457
+    second: orge attack sprites_125
+  - first:
+      213: 5442175514993673731
+    second: orge attack sprites_126
+  - first:
+      213: -4730196296707757242
+    second: orge attack sprites_127
+  - first:
+      213: -8138176178014515379
+    second: orge attack sprites_128
+  - first:
+      213: 6644593238650621425
+    second: orge attack sprites_129
+  - first:
+      213: -8470776197330989243
+    second: orge attack sprites_130
+  - first:
+      213: -8431228954399663210
+    second: orge attack sprites_131
+  - first:
+      213: 835767919405581928
+    second: orge attack sprites_132
+  - first:
+      213: 7642560288887822071
+    second: orge attack sprites_133
+  - first:
+      213: -7465418063079894287
+    second: orge attack sprites_134
+  - first:
+      213: -6590924809968094404
+    second: orge attack sprites_135
+  - first:
+      213: 3117975781383637848
+    second: orge attack sprites_136
+  - first:
+      213: 6547875048657023665
+    second: orge attack sprites_137
+  - first:
+      213: -2778969678882556726
+    second: orge attack sprites_138
+  - first:
+      213: -1595866807250312704
+    second: orge attack sprites_139
+  - first:
+      213: -84950800120320345
+    second: orge attack sprites_140
+  - first:
+      213: 3899463943930054692
+    second: orge attack sprites_141
+  - first:
+      213: -6853816028777461472
+    second: orge attack sprites_142
+  - first:
+      213: 1935348767863938602
+    second: orge attack sprites_143
+  - first:
+      213: 2319740580476905085
+    second: orge attack sprites_144
+  - first:
+      213: 370679594289122566
+    second: orge attack sprites_145
+  - first:
+      213: 2111857648505585521
+    second: orge attack sprites_146
+  - first:
+      213: -4959082099023877773
+    second: orge attack sprites_147
+  - first:
+      213: -570844559531469767
+    second: orge attack sprites_148
+  - first:
+      213: -8858877598509249517
+    second: orge attack sprites_149
+  - first:
+      213: -6626373750006996027
+    second: orge attack sprites_150
+  - first:
+      213: 2484982688446851093
+    second: orge attack sprites_151
+  - first:
+      213: 6078101035712657971
+    second: orge attack sprites_152
+  - first:
+      213: -8997291038779762421
+    second: orge attack sprites_153
+  - first:
+      213: 1518580255785035788
+    second: orge attack sprites_154
+  - first:
+      213: 4466687439294075302
+    second: orge attack sprites_155
+  - first:
+      213: 5195525666332544156
+    second: orge attack sprites_156
+  - first:
+      213: 2138592681924695187
+    second: orge attack sprites_157
+  - first:
+      213: -6111871051853890948
+    second: orge attack sprites_158
+  - first:
+      213: 920390095440223225
+    second: orge attack sprites_159
+  - first:
+      213: 4930472568697692369
+    second: orge attack sprites_160
+  - first:
+      213: -7941180459103221293
+    second: orge attack sprites_161
+  - first:
+      213: 5056068483755945233
+    second: orge attack sprites_162
+  - first:
+      213: 8564124551513817977
+    second: orge attack sprites_163
+  - first:
+      213: 5191868734285279043
+    second: orge attack sprites_164
+  - first:
+      213: 8071892363507922397
+    second: orge attack sprites_165
+  - first:
+      213: 4855735392646947665
+    second: orge attack sprites_166
+  - first:
+      213: -4142252067597756511
+    second: orge attack sprites_167
+  - first:
+      213: 4922523294012506632
+    second: orge attack sprites_168
+  - first:
+      213: -2899258979853746266
+    second: orge attack sprites_169
+  - first:
+      213: 8730231924895825670
+    second: orge attack sprites_170
+  - first:
+      213: -8188581979862399384
+    second: orge attack sprites_171
+  - first:
+      213: -4266824682192146960
+    second: orge attack sprites_172
+  - first:
+      213: 4035018021487693506
+    second: orge attack sprites_173
+  - first:
+      213: -9152497825799732121
+    second: orge attack sprites_174
+  - first:
+      213: 6076261773402642028
+    second: orge attack sprites_175
+  - first:
+      213: -8682153988015386563
+    second: orge attack sprites_176
+  - first:
+      213: 2394495955175283051
+    second: orge attack sprites_177
+  - first:
+      213: -6031115706067629155
+    second: orge attack sprites_178
+  - first:
+      213: 7535519987106410989
+    second: orge attack sprites_179
+  - first:
+      213: -338290738538675464
+    second: orge attack sprites_180
+  - first:
+      213: 1600222750834351218
+    second: orge attack sprites_181
+  - first:
+      213: -6679677588338089716
+    second: orge attack sprites_182
+  - first:
+      213: -980816940175696523
+    second: orge attack sprites_183
+  - first:
+      213: -5552433293503563947
+    second: orge attack sprites_184
+  - first:
+      213: -5244174699996001598
+    second: orge attack sprites_185
+  - first:
+      213: -9088861748194015163
+    second: orge attack sprites_186
+  - first:
+      213: -8538422980203166077
+    second: orge attack sprites_187
+  - first:
+      213: 1975353785195602824
+    second: orge attack sprites_188
+  - first:
+      213: -6984857694380793749
+    second: orge attack sprites_189
+  - first:
+      213: 7786644148564936459
+    second: orge attack sprites_190
+  - first:
+      213: 9075641260040142822
+    second: orge attack sprites_191
+  - first:
+      213: 5593115788619939515
+    second: orge attack sprites_192
+  - first:
+      213: 9007336736909685820
+    second: orge attack sprites_193
+  - first:
+      213: 1147330892000584737
+    second: orge attack sprites_194
+  - first:
+      213: -4354975296534994094
+    second: orge attack sprites_195
+  - first:
+      213: 5036831150016159477
+    second: orge attack sprites_196
+  - first:
+      213: -6222884209498536652
+    second: orge attack sprites_197
+  - first:
+      213: 3418836078059377726
+    second: orge attack sprites_198
+  - first:
+      213: 2746399635783249902
+    second: orge attack sprites_199
+  - first:
+      213: 5627589598450681819
+    second: orge attack sprites_200
+  - first:
+      213: -4214718061192422745
+    second: orge attack sprites_201
+  - first:
+      213: 1069473920383361527
+    second: orge attack sprites_202
+  - first:
+      213: -8059401223540562564
+    second: orge attack sprites_203
+  - first:
+      213: -4911121009153005952
+    second: orge attack sprites_204
+  - first:
+      213: 6054890300289624374
+    second: orge attack sprites_205
+  - first:
+      213: -3189374717724751906
+    second: orge attack sprites_206
+  - first:
+      213: 7912172658214090007
+    second: orge attack sprites_207
+  - first:
+      213: -6448368993230464011
+    second: orge attack sprites_208
+  - first:
+      213: -4036793127237179187
+    second: orge attack sprites_209
+  - first:
+      213: -4719788349934411530
+    second: orge attack sprites_210
+  - first:
+      213: -6370030705894008488
+    second: orge attack sprites_211
+  - first:
+      213: 7497926527716287652
+    second: orge attack sprites_212
+  - first:
+      213: 8996736707239740807
+    second: orge attack sprites_213
+  - first:
+      213: -514532414918238063
+    second: orge attack sprites_214
+  - first:
+      213: 8900865604032654843
+    second: orge attack sprites_215
+  - first:
+      213: 4203203399762429713
+    second: orge attack sprites_216
+  - first:
+      213: 8467953676604337892
+    second: orge attack sprites_217
+  - first:
+      213: 419857916101078024
+    second: orge attack sprites_218
+  - first:
+      213: -5080105203058457390
+    second: orge attack sprites_219
+  - first:
+      213: 1551198792338079427
+    second: orge attack sprites_220
+  - first:
+      213: 3884458014178884847
+    second: orge attack sprites_221
+  - first:
+      213: -2852106559179867511
+    second: orge attack sprites_222
+  - first:
+      213: -6556611477588589022
+    second: orge attack sprites_223
+  - first:
+      213: -2492594312365902731
+    second: orge attack sprites_224
+  - first:
+      213: -3864207334721866767
+    second: orge attack sprites_225
+  - first:
+      213: -7820900378155565825
+    second: orge attack sprites_226
+  - first:
+      213: -661693108861725614
+    second: orge attack sprites_227
+  - first:
+      213: -8400001348524568799
+    second: orge attack sprites_228
+  - first:
+      213: -1591204529667256631
+    second: orge attack sprites_229
+  - first:
+      213: -5817238009032684188
+    second: orge attack sprites_230
+  - first:
+      213: -6216344132658011581
+    second: orge attack sprites_231
+  - first:
+      213: 5409999665530924797
+    second: orge attack sprites_232
+  - first:
+      213: 2221621801619022325
+    second: orge attack sprites_233
+  - first:
+      213: -1576057509257079792
+    second: orge attack sprites_234
+  - first:
+      213: -1243626692384818652
+    second: orge attack sprites_235
+  - first:
+      213: 4255555104361545067
+    second: orge attack sprites_236
+  - first:
+      213: -4901707361026686140
+    second: orge attack sprites_237
+  - first:
+      213: -6910272481280898555
+    second: orge attack sprites_238
+  - first:
+      213: -1999729465533530422
+    second: orge attack sprites_239
+  - first:
+      213: -4905618730406725490
+    second: orge attack sprites_240
+  - first:
+      213: 7517382035268902000
+    second: orge attack sprites_241
+  - first:
+      213: 7108278015239973893
+    second: orge attack sprites_242
+  - first:
+      213: -8354053937848792249
+    second: orge attack sprites_243
+  - first:
+      213: 1426368706613160381
+    second: orge attack sprites_244
+  - first:
+      213: -2791993580743002490
+    second: orge attack sprites_245
+  - first:
+      213: 7478370697608374660
+    second: orge attack sprites_246
+  - first:
+      213: 4822731126047447641
+    second: orge attack sprites_247
+  - first:
+      213: 6709185799087804218
+    second: orge attack sprites_248
+  - first:
+      213: -8512967498737226412
+    second: orge attack sprites_249
+  - first:
+      213: -4651778392257539177
+    second: orge attack sprites_250
+  - first:
+      213: -3099301467753417628
+    second: orge attack sprites_251
+  - first:
+      213: -752758090873579641
+    second: orge attack sprites_252
+  - first:
+      213: -8288678193690609460
+    second: orge attack sprites_253
+  - first:
+      213: -4135827878662569401
+    second: orge attack sprites_254
+  - first:
+      213: -2190397214935028002
+    second: orge attack sprites_255
+  - first:
+      213: 7624660298676604896
+    second: orge attack sprites_256
+  - first:
+      213: 3070631795816305848
+    second: orge attack sprites_257
+  - first:
+      213: 8442974317780218047
+    second: orge attack sprites_258
+  - first:
+      213: -2072109216467159991
+    second: orge attack sprites_259
+  - first:
+      213: -8588284103477309225
+    second: orge attack sprites_260
+  - first:
+      213: 3804247494427870084
+    second: orge attack sprites_261
+  - first:
+      213: -6396589397605976626
+    second: orge attack sprites_262
+  - first:
+      213: 9165544767570063559
+    second: orge attack sprites_263
+  - first:
+      213: -3230595304948118962
+    second: orge attack sprites_264
+  - first:
+      213: 6514043238670586221
+    second: orge attack sprites_265
+  - first:
+      213: -4878618923480246032
+    second: orge attack sprites_266
+  - first:
+      213: -1622311937546760544
+    second: orge attack sprites_267
+  - first:
+      213: -5595749565555695171
+    second: orge attack sprites_268
+  - first:
+      213: 2086152374563159454
+    second: orge attack sprites_269
+  - first:
+      213: -8762408913847104123
+    second: orge attack sprites_270
+  - first:
+      213: 8529940071211510003
+    second: orge attack sprites_271
+  - first:
+      213: 1901777905834895937
+    second: orge attack sprites_272
+  - first:
+      213: 7514707940191648935
+    second: orge attack sprites_273
+  - first:
+      213: 5021731865372511447
+    second: orge attack sprites_274
+  - first:
+      213: -5116136816434377475
+    second: orge attack sprites_275
+  - first:
+      213: 7426620713729824007
+    second: orge attack sprites_276
+  - first:
+      213: -2824839327675652041
+    second: orge attack sprites_277
+  - first:
+      213: -2524407087469652739
+    second: orge attack sprites_278
+  - first:
+      213: -3111707023776743312
+    second: orge attack sprites_279
+  - first:
+      213: -7357531408332096578
+    second: orge attack sprites_280
+  - first:
+      213: 605084379474397476
+    second: orge attack sprites_281
+  - first:
+      213: 7609262823696932741
+    second: orge attack sprites_282
+  - first:
+      213: -8684462869748398246
+    second: orge attack sprites_283
+  - first:
+      213: -7885121059454662767
+    second: orge attack sprites_284
+  - first:
+      213: -4728313328286485319
+    second: orge attack sprites_285
+  - first:
+      213: -2365614633025555217
+    second: orge attack sprites_286
+  - first:
+      213: -1271636948294577723
+    second: orge attack sprites_287
+  - first:
+      213: 5241071545880018871
+    second: orge attack sprites_288
+  - first:
+      213: -8325734621008601799
+    second: orge attack sprites_289
+  - first:
+      213: 3886904804344684261
+    second: orge attack sprites_290
+  - first:
+      213: 3424674457231803370
+    second: orge attack sprites_291
+  - first:
+      213: -2655505186271101436
+    second: orge attack sprites_292
+  - first:
+      213: -5951528087501991218
+    second: orge attack sprites_293
+  - first:
+      213: -6013897911532362257
+    second: orge attack sprites_294
+  - first:
+      213: 3195364183761153838
+    second: orge attack sprites_295
+  - first:
+      213: -1118205751275365639
+    second: orge attack sprites_296
+  - first:
+      213: -6993259029189176990
+    second: orge attack sprites_297
+  - first:
+      213: 3742911308236762796
+    second: orge attack sprites_298
+  - first:
+      213: -1900706979653143150
+    second: orge attack sprites_299
+  - first:
+      213: 5262882335686653426
+    second: orge attack sprites_300
+  - first:
+      213: -4655921335689143421
+    second: orge attack sprites_301
+  - first:
+      213: -4453166393868903741
+    second: orge attack sprites_302
+  - first:
+      213: -8956485374288999887
+    second: orge attack sprites_303
+  - first:
+      213: 6752470885009705235
+    second: orge attack sprites_304
+  - first:
+      213: 4468577825848694237
+    second: orge attack sprites_305
+  - first:
+      213: 2960147341730946826
+    second: orge attack sprites_306
+  - first:
+      213: 6830135148110127760
+    second: orge attack sprites_307
+  - first:
+      213: -1029141027499102104
+    second: orge attack sprites_308
+  - first:
+      213: 5492003813416739372
+    second: orge attack sprites_309
+  - first:
+      213: -4610510167040483661
+    second: orge attack sprites_310
+  - first:
+      213: -1779562011596566460
+    second: orge attack sprites_311
+  - first:
+      213: 3562810179770402830
+    second: orge attack sprites_312
+  - first:
+      213: -3801896020152908212
+    second: orge attack sprites_313
+  - first:
+      213: 8151342803717381752
+    second: orge attack sprites_314
+  - first:
+      213: 7585851443531539610
+    second: orge attack sprites_315
+  - first:
+      213: 1052076015611450896
+    second: orge attack sprites_316
+  - first:
+      213: -1064561953616451180
+    second: orge attack sprites_317
+  - first:
+      213: -911193438633297178
+    second: orge attack sprites_318
+  - first:
+      213: 4207026120805972672
+    second: orge attack sprites_319
+  - first:
+      213: -5870928509170200918
+    second: orge attack sprites_320
+  - first:
+      213: 1340498219575642737
+    second: orge attack sprites_321
+  - first:
+      213: -2387227461354583765
+    second: orge attack sprites_322
+  - first:
+      213: 4904923688585587868
+    second: orge attack sprites_323
+  - first:
+      213: -3086100554893455270
+    second: orge attack sprites_324
+  - first:
+      213: 1934121455098221384
+    second: orge attack sprites_325
+  - first:
+      213: -4530962145558630175
+    second: orge attack sprites_326
+  - first:
+      213: 2740888845944373278
+    second: orge attack sprites_327
+  - first:
+      213: 9016325342740218829
+    second: orge attack sprites_328
+  - first:
+      213: 6975730585691122934
+    second: orge attack sprites_329
+  - first:
+      213: -6501437051397663341
+    second: orge attack sprites_330
+  - first:
+      213: 551838743856656815
+    second: orge attack sprites_331
+  - first:
+      213: 4161525068625260098
+    second: orge attack sprites_332
+  - first:
+      213: -7263747737383864968
+    second: orge attack sprites_333
+  - first:
+      213: 8406749368073584574
+    second: orge attack sprites_334
+  - first:
+      213: 499196941707512322
+    second: orge attack sprites_335
+  - first:
+      213: -8674992181991920450
+    second: orge attack sprites_336
+  - first:
+      213: -2356385012744962747
+    second: orge attack sprites_337
+  - first:
+      213: 4751009371130946683
+    second: orge attack sprites_338
+  - first:
+      213: -2793379428543715236
+    second: orge attack sprites_339
+  - first:
+      213: -8761300710662661014
+    second: orge attack sprites_340
+  - first:
+      213: -5157273016005110148
+    second: orge attack sprites_341
+  - first:
+      213: -8748900973334581480
+    second: orge attack sprites_342
+  - first:
+      213: -3731714033593458731
+    second: orge attack sprites_343
+  - first:
+      213: -4881314701755890076
+    second: orge attack sprites_344
+  - first:
+      213: -9200577597400396051
+    second: orge attack sprites_345
+  - first:
+      213: -7951211780706160875
+    second: orge attack sprites_346
+  - first:
+      213: -6999602228594645794
+    second: orge attack sprites_347
+  - first:
+      213: 4332666195867808264
+    second: orge attack sprites_348
+  - first:
+      213: -3795649203124445940
+    second: orge attack sprites_349
+  - first:
+      213: 8578694769695637056
+    second: orge attack sprites_350
+  - first:
+      213: 7409967795438908635
+    second: orge attack sprites_351
+  - first:
+      213: -9148246084744573033
+    second: orge attack sprites_352
+  - first:
+      213: 525669259136013961
+    second: orge attack sprites_353
+  - first:
+      213: -58492189500847617
+    second: orge attack sprites_354
+  - first:
+      213: 7233901716835623271
+    second: orge attack sprites_355
+  - first:
+      213: 8922008143839724202
+    second: orge attack sprites_356
+  - first:
+      213: -330323965281066229
+    second: orge attack sprites_357
+  - first:
+      213: -4555700062953608664
+    second: orge attack sprites_358
+  - first:
+      213: -7910481520093712171
+    second: orge attack sprites_359
+  - first:
+      213: -74222293011339749
+    second: orge attack sprites_360
+  - first:
+      213: 4860209267159284895
+    second: orge attack sprites_361
+  - first:
+      213: 5309968400336652366
+    second: orge attack sprites_362
+  - first:
+      213: 2034239172597820147
+    second: orge attack sprites_363
+  - first:
+      213: -6255427638622688147
+    second: orge attack sprites_364
+  - first:
+      213: 3021587147804042912
+    second: orge attack sprites_365
+  - first:
+      213: -4386927926142616861
+    second: orge attack sprites_366
+  - first:
+      213: 802204465510227734
+    second: orge attack sprites_367
+  - first:
+      213: -8214265931326247672
+    second: orge attack sprites_368
+  - first:
+      213: -8763536278491604481
+    second: orge attack sprites_369
+  - first:
+      213: -5780426643086160975
+    second: orge attack sprites_370
+  - first:
+      213: 817099944160727152
+    second: orge attack sprites_371
+  - first:
+      213: -7962434069905819899
+    second: orge attack sprites_372
+  - first:
+      213: 5625815532134239633
+    second: orge attack sprites_373
+  - first:
+      213: -8491368964176338432
+    second: orge attack sprites_374
+  - first:
+      213: 2675096748596969716
+    second: orge attack sprites_375
+  - first:
+      213: 5713670141521271108
+    second: orge attack sprites_376
+  - first:
+      213: -2249938182903496432
+    second: orge attack sprites_377
+  - first:
+      213: 300224410344588066
+    second: orge attack sprites_378
+  - first:
+      213: -3980940928649100716
+    second: orge attack sprites_379
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orge attack sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2fbbf101b9b9830800000000000000
+      internalID: 4079024381068309220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca857c6b715128ed0800000000000000
+      internalID: -2413343258722215764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2750ec92929594590800000000000000
+      internalID: -7689516855428512398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5522aa38980f99be0800000000000000
+      internalID: -1469879329949605291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17a4b33189a830c0800000000000000
+      internalID: -4595737047348238561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07e6aa58d5001460800000000000000
+      internalID: 7210269430212126475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4588fbce4bd6f20800000000000000
+      internalID: 3417586621162738884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8750c4a9b27524a10800000000000000
+      internalID: 1892170638232913272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48149416a220e580800000000000000
+      internalID: -8799995575176783795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598d815e086bb7e70800000000000000
+      internalID: 9114078935630010517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9e6f3ff47cf0520800000000000000
+      internalID: 2670572250263382453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1050459ee813d1f40800000000000000
+      internalID: 5700767193190630657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3b89c0c49465bf0800000000000000
+      internalID: -336000531214846984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3282ca4d47aa810800000000000000
+      internalID: 1777361459721282548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4135f96b924e90710800000000000000
+      internalID: 1660108805471425300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orge attack sprites_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e798da3fa481ef0800000000000000
+      internalID: -137277378185822715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

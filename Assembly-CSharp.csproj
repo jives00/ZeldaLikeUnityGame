@@ -39,6 +39,7 @@
      <Compile Include="Assets\Scripts\Enemies\AreaEnemy.cs" />
      <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
      <Compile Include="Assets\Scripts\Enemies\Log.cs" />
+     <Compile Include="Assets\Scripts\Enemies\MeleeEnemy.cs" />
      <Compile Include="Assets\Scripts\Enemies\PatrolLog.cs" />
      <Compile Include="Assets\Scripts\Enemies\RockProjectile.cs" />
      <Compile Include="Assets\Scripts\Enemies\TurretEnemy.cs" />
