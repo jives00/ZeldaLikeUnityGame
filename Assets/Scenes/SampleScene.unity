@@ -12813,7 +12813,7 @@ GameObject:
   - component: {fileID: 427398135}
   - component: {fileID: 427398133}
   - component: {fileID: 427398134}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Received Item
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -14198,7 +14198,7 @@ GameObject:
   m_Component:
   - component: {fileID: 800481375}
   - component: {fileID: 800481374}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Context Clue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15288,7 +15288,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 37af2b7f495e0c44ea135e5b57204afc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -56854,7 +56854,7 @@ GameObject:
   - component: {fileID: 2017992263}
   m_Layer: 0
   m_Name: Ogre
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58306,6 +58306,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1747326182685764780, guid: 894f1797f22348d4e960083f21cbdf71,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747326183014924697, guid: 894f1797f22348d4e960083f21cbdf71,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 1747326183105778116, guid: 894f1797f22348d4e960083f21cbdf71,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -58366,6 +58376,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1747326183105778118, guid: 894f1797f22348d4e960083f21cbdf71,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 1747326183105778120, guid: 894f1797f22348d4e960083f21cbdf71,
         type: 3}
       propertyPath: m_Enabled
@@ -58404,6 +58419,12 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1747326183105778121, guid: 894f1797f22348d4e960083f21cbdf71,
+        type: 3}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 6189341217028144477, guid: 4942b3939c4c5314fba54aba5cb6cbf8,
+        type: 3}
     - target: {fileID: 1747326183105778122, guid: 894f1797f22348d4e960083f21cbdf71,
         type: 3}
       propertyPath: m_Enabled
@@ -58413,6 +58434,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SleepingMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747326183384981831, guid: 894f1797f22348d4e960083f21cbdf71,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747326183416315508, guid: 894f1797f22348d4e960083f21cbdf71,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 894f1797f22348d4e960083f21cbdf71, type: 3}

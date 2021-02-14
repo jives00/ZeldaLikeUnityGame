@@ -20,7 +20,7 @@ public class Log : Enemy {
         myRigidBody     = GetComponent<Rigidbody2D>();
         currentState    = EnemyState.idle;
         anim            = GetComponent<Animator>();
-        anim.SetBool("wakeUp", true);
+        //anim.SetBool("wakeUp", true);
     }
 
     void FixedUpdate() {

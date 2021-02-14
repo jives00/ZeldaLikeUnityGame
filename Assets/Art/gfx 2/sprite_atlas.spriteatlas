@@ -309,6 +309,7 @@ SpriteAtlas:
   - {fileID: 536419509007563539, guid: 30bd1d0257f06344dbc57e1a604dd4e0, type: 3}
   - {fileID: 1036803682579554421, guid: 30bd1d0257f06344dbc57e1a604dd4e0, type: 3}
   - {fileID: 5559694988392259305, guid: 30bd1d0257f06344dbc57e1a604dd4e0, type: 3}
+  - {fileID: 21300000, guid: 5dd461c28d928894aa8b9cbc61419bc5, type: 3}
   - {fileID: 3059174765694063163, guid: 0ca512731e8b82d4b82ad36d289ff601, type: 3}
   - {fileID: -34017176892466219, guid: 0ca512731e8b82d4b82ad36d289ff601, type: 3}
   - {fileID: 2376815873980901129, guid: 0ca512731e8b82d4b82ad36d289ff601, type: 3}
@@ -1618,6 +1619,7 @@ SpriteAtlas:
   - {fileID: 1777361459721282548, guid: d73c01e99d949094098caee074184b7d, type: 3}
   - {fileID: 2670572250263382453, guid: d73c01e99d949094098caee074184b7d, type: 3}
   - {fileID: 5700767193190630657, guid: d73c01e99d949094098caee074184b7d, type: 3}
+  - {fileID: 21300000, guid: 584f8f7a26d9cba459f0c8830e585305, type: 3}
   - {fileID: -1986772863260763996, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
   - {fileID: 5760800594879907098, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
   - {fileID: 7597474578557255370, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
@@ -2061,6 +2063,7 @@ SpriteAtlas:
   - Inner_38
   - Inner_42
   - Inner_43
+  - bow
   - log_8
   - log_9
   - log_2
@@ -3370,6 +3373,7 @@ SpriteAtlas:
   - orge attack sprites_13
   - orge attack sprites_10
   - orge attack sprites_11
+  - arrow
   - objects_71
   - objects_70
   - objects_73
