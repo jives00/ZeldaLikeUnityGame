@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour {
     public Inventory        playerInventory;
     public SpriteRenderer   recievedItemSprite;
     public SignalSender     playerHit;
+    public SignalSender     reduceMagic;
     public GameObject       projectile;
 
     private Rigidbody2D     myRigidBody;
@@ -89,11 +90,13 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     private void MakeArrow() {
-        Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-        Arrow arrow = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Arrow>();
-        arrow.Setup(temp, ChooseArrowDirection());
+        if (playerInventory.currentMagic > 0) {
+            Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+            Arrow arrow = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Arrow>();
+            arrow.Setup(temp, ChooseArrowDirection());
+            reduceMagic.Raise();}
     }
-
+ 
     Vector3 ChooseArrowDirection() {
         float temp = Mathf.Atan2(animator.GetFloat("moveY"), animator.GetFloat("moveX")) * Mathf.Rad2Deg;
         return new Vector3(0,0,temp);

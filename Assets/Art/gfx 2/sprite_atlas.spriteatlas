@@ -1603,6 +1603,7 @@ SpriteAtlas:
   - {fileID: 47775018648080561, guid: 44d47606b36cbc14bae76c499b6ad112, type: 3}
   - {fileID: 21300000, guid: b1bf40f8816786f42a879a8e853c0a95, type: 3}
   - {fileID: 21300000, guid: 01606c5934e01284d8b8101268df7ac9, type: 3}
+  - {fileID: 21300000, guid: a82e7b891ff54594f868476f79947785, type: 3}
   - {fileID: 9114078935630010517, guid: d73c01e99d949094098caee074184b7d, type: 3}
   - {fileID: -8799995575176783795, guid: d73c01e99d949094098caee074184b7d, type: 3}
   - {fileID: -1469879329949605291, guid: d73c01e99d949094098caee074184b7d, type: 3}
@@ -1766,6 +1767,7 @@ SpriteAtlas:
   - {fileID: -2639854583086408205, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
   - {fileID: 1107736971085435061, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
   - {fileID: -377563455374678323, guid: 4332793cd52d20444a50232d24d0641e, type: 3}
+  - {fileID: 21300000, guid: c15ce34c954f4da449999fafd62ac171, type: 3}
   - {fileID: 21300000, guid: 9bb825dd2ccf25249ba5cdf89dcc4084, type: 3}
   - {fileID: -872947984015748712, guid: b86f013e89dc6f8499851ae36e19bd89, type: 3}
   - {fileID: 4004008643541842471, guid: b86f013e89dc6f8499851ae36e19bd89, type: 3}
@@ -3357,6 +3359,7 @@ SpriteAtlas:
   - cave_109
   - font
   - NPC_test
+  - magic bottle
   - orge attack sprites_9
   - orge attack sprites_8
   - orge attack sprites_3
@@ -3520,6 +3523,7 @@ SpriteAtlas:
   - switchDown
   - objects_109
   - objects_108
+  - magic bar
   - key
   - modified gfx melee sprites_15
   - modified gfx melee sprites_14
