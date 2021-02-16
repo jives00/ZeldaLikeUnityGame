@@ -112,3 +112,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerUpSignal: {fileID: 11400000, guid: 9682fbdeb37dcb444b97488279a4ba8f, type: 2}
+  playerInventory: {fileID: 11400000, guid: ea5c2b86c26a93a429e291be775d79d8, type: 2}
+  magicValue: 2

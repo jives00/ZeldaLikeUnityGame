@@ -12,6 +12,14 @@ public class Inventory : ScriptableObject {
     public float        maxMagic = 10;
     public float        currentMagic;
 
+    public void OnEnable() {
+        currentMagic = maxMagic;
+    }
+
+    public void ReduceMagic(float magicCost) {
+        currentMagic -= magicCost;
+    }
+
     public void AddItem(Item itemToAdd) {
         if (itemToAdd.isKey) {
             numberOfKeys++;}
