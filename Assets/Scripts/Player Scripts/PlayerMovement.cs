@@ -22,11 +22,14 @@ public class PlayerMovement : MonoBehaviour {
     public SpriteRenderer   recievedItemSprite;
     public SignalSender     playerHit;
     public SignalSender     reduceMagic;
-    public GameObject       projectile;
 
     private Rigidbody2D     myRigidBody;
     private Vector3         change;
     private Animator        animator;
+
+    [Header("Projectiles")]
+    public GameObject       projectile;
+    public Item             bow;
 
     // Start is called before the first frame update
     // Grab the animator and rigidbody from whatever this script is attached to (probably just player)
@@ -54,7 +57,8 @@ public class PlayerMovement : MonoBehaviour {
         if (Input.GetButtonDown("attack") && currentState != PlayerState.attack && currentState != PlayerState.stagger) {
             StartCoroutine(AttackCo());} 
         else if (Input.GetButtonDown("Second Weapon") && currentState != PlayerState.attack && currentState != PlayerState.stagger) {
-            StartCoroutine(SecondAttackCo());}
+             if (playerInventory.CheckForItem(bow)){
+                StartCoroutine(SecondAttackCo());}}
         else if (currentState == PlayerState.walk || currentState == PlayerState.idle) {
             UpdateAnimationAndMove();}
     }
