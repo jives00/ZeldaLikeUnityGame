@@ -24,8 +24,9 @@ public class HeartManager : MonoBehaviour {
     }
 
     public void UpdateHearts() {
+        InitHearts();
         float tempHealth = playerCurrentHealth.runTimeValue / 2;
-        for (int i = 0; i < heartContainers.initialValue; i++) {
+        for (int i = 0; i < heartContainers.runTimeValue; i++) {
             if (i <= tempHealth - 1) {
                 hearts[i].sprite = fullHeart;}
             else if (i >= tempHealth) {
